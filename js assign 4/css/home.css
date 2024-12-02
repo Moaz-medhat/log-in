@@ -1,0 +1,47 @@
+nav {
+  box-shadow: 0 0 8px 5px;
+  background-color: #24353F;
+}
+
+.body{
+  background-color: #24353F;
+
+}
+.hero{
+  background-color: #24353F;
+
+}
+.navbar-toggler-icon {
+  background-color: #24353F;
+
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.nav-main {
+  margin: 0 0 0 auto;
+}
+
+.nameHome {
+  text-transform: uppercase;
+  
+}
+
+
+  .home .form{
+    position: relative;
+    z-index: 1;
+    background-color: #0B0D15;
+
+    display: flex;
+    justify-content: center;
+    
+  }
+  .home .form::before,.form::after{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -50 ;
+  }

@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero{
+  background-color: #24353F;
+}
+.inner{
+  background-color: #24353F;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+  
+}
+.inner h1{
+  color: RGB(23, 162, 184)
+  ;
+}
+.form-control{
+  border: 1px solid #ced4da;
+  background-color: transparent;
+  transition: none;
+}
+.username, .username:focus{
+  background-color: transparent;
+color:#ced4da !important;
+}
+::placeholder{
+color:#ced4da !important;
+
+}
+input, textarea{
+  background-color: transparent;
+}
+a{
+  text-decoration: none ;
+}
+ a:hover{
+  text-decoration: underline;
+}

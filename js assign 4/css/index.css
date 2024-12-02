@@ -1,0 +1,75 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.hero{
+  background-color: #24353F;
+}
+.inner{
+  background-color: #24353F;
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+
+  
+}
+.inner h1{
+  color: RGB(23, 162, 184)
+  ;
+}
+.form-control{
+  border: 1px solid #ced4da;
+  background-color: transparent;
+  transition: none;
+}
+.username, .username:focus{
+  background-color: transparent;
+color:#ced4da !important;
+}
+::placeholder{
+color:#ced4da !important;
+
+}
+input, textarea{
+  background-color: transparent;
+}
+a{
+  text-decoration: none ;
+}
+ a:hover{
+  text-decoration: underline;
+}
+
+
+
+
+
+/* .btn-outline-primary {
+  color: aqua;
+  border: aqua 1px solid;
+}
+
+input:focus {
+  border: aqua 1px solid !important;
+  outline: none;
+  box-shadow: 0 0 19px .25rem rgba(13, 110, 253, .25) !important;
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+  background-color: rgb(34, 203, 203) !important;
+  color: #24353F !important;
+  border: aqua 1px solid !important;
+
+} */
+input {
+  background-color: #1C1F2B !important;
+  color: #fff !important;
+  background-image: url(./../);
+
+
+}
+
+/* .form input::-webkit-input-placeholder {
+  color: #fff !important;
+} */
